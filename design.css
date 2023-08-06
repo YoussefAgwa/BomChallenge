@@ -1,0 +1,77 @@
+body{
+  background: #202020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  user-select: none;
+}
+div.input {
+  background: white;
+  width: 900px;
+  padding: 5px 30px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  font-size: 40px;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: black;
+}
+.check ,.clear {
+  background: black;
+  color: white;
+  font-size: 45px !important;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.clear {
+  margin-left: 10px;
+}
+.list {
+  background-color: #909090;
+  width: 900px;
+  padding: 5px 30px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.task , .complete {
+  background: white;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+.complete {
+  transform: rotate(360deg);
+  transition: 2s;
+}
+.control {
+  display: flex;
+  gap: 10px;
+}
+
+.delete,
+.done {
+  background: black;
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: 800 !important;
+  cursor: pointer;
+}
